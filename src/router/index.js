@@ -34,11 +34,6 @@ const router = createRouter({
       component: WorkView,
     },
     {
-      path: '/blog',
-      name: 'Blog',
-      component: BlogView,
-    },
-    {
       path: '/:notFound(.*)',
       redirect: '/',
     },

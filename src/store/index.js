@@ -87,39 +87,6 @@ const store = createStore({
         console.log(err);
       }
     },
-    async postMessage({ rootGetters }, payLoad) {
-      try {
-        const response = await fetch(
-          'https://persoanal-portifoil-default-rtdb.firebaseio.com/messages.json',
-          {
-            method: 'POST',
-            body: JSON.stringify(payLoad),
-          }
-        );
-        if (!response.ok) {
-          throw new Error('Failed to send message, sorry. Try again later!');
-        } else {
-          return rootGetters.getSelectedLanguage === 'en'
-            ? 'Thanks for reaching out!'
-            : 'Obrigado por entrar em contato!';
-        }
-      } catch (err) {
-        return err.message;
-      }
-    },
-    async postVisitor({ }, visitorObj) {
-      try {
-        await axios.put(
-          `https://personal-portifoil-default-rtdb.firebaseio.com/visitors/${visitorObj.visitorId}.json`,
-          {
-            timesVisited: visitorObj.visitCount,
-            lastVisit: visitorObj.lastDateVisiting,
-          }
-        );
-      } catch (err) {
-        console.error(err);
-      }
-    },
     async fetchProjects({ commit }) {
       try {
         const path = './locales/projects.json';
