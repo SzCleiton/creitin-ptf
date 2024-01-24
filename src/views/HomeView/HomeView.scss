@@ -1,0 +1,197 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: $padding-base * 1.5 0;
+  font-family: $font-family-primary;
+
+  h1 {
+    font-family: $font-family-primary;
+    font-size: $font-size-title * 1.4;
+    font-weight: 600;
+    color: $black-main;
+  }
+
+  p {
+    font-family: $font-family-secondary;
+    font-size: $font-size-base * 1.4;
+    color: $gray-main;
+  }
+
+  .sub-title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: $padding-base 0;
+    color: lighten($gray-main, 10%);
+    width: 60%;
+  }
+
+  .hire-btn {
+    margin: $margin-base;
+    font-size: $font-size-title;
+    padding: 2.5rem 3.5rem;
+  }
+
+  .see-more-btn {
+    padding: $padding-base * 0.5 $padding-base * 0.6;
+  }
+
+  .container {
+    width: 80%;
+    padding: $padding-base * 1.5 0;
+    h1 {
+      padding: $padding-base 0;
+      font-size: $font-size-title * 1.5;
+      font-weight: 700;
+    }
+  }
+
+  .selected-work {
+    .work-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 3rem;
+      padding: $padding-base;
+      li {
+        margin: 1rem;
+      }
+    }
+  }
+
+  .things-i-do {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
+    p {
+      padding: $padding-base 0;
+      text-align: start;
+      font-weight: 300;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .about {
+      line-height: 3.5rem;
+      padding-right: $padding-base;
+    }
+
+    .skills {
+      background-color: $black-secondary;
+      border-radius: $border-radius-base;
+      padding: $padding-base $padding-base * 2;
+      p {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+      }
+      .btn-container {
+        z-index: 999;
+        background-color: transparent;
+        width: 100%;
+      }
+    }
+  }
+  .personal-blog {
+    .blog-content {
+      display: flex;
+      justify-content: space-between;
+      padding: $padding-base 0;
+
+      .last-posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+
+      .youtube-video {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-height: 100%;
+        z-index: 99999999999999;
+        iframe {
+          position: relative;
+          border-radius: $border-radius-base;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: $small-screen) {
+  p {
+    font-size: $font-size-base * 1.2 !important;
+  }
+  .home-page {
+    .sub-title {
+      width: 100%;
+    }
+    .container {
+      width: 80%;
+    }
+    .selected-work {
+      width: 100%;
+      .work-list {
+        flex-direction: column;
+        padding: 1rem;
+      }
+    }
+    .things-i-do {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      div {
+        align-items: center;
+      }
+      .about {
+        padding: 0;
+        margin: 0;
+        p {
+          line-height: 2rem;
+          text-align: center;
+          padding: $padding-base;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $medium-screen) {
+  .home-page {
+    .sub-title {
+      width: 100%;
+    }
+    .selected-work {
+      width: 100%;
+    }
+    .personal-blog{
+      .blog-content{
+        flex-direction: column;
+        .last-posts {
+          width: 100%;
+        }
+  
+        .youtube-video {
+          padding-top: $padding-base * 2;
+          iframe {
+            position: relative;
+            border-radius: $border-radius-base;
+            width: 100%;
+            height: 50rem;
+          }
+        }
+      }
+    }
+  }
+}

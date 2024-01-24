@@ -1,0 +1,116 @@
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-primary;
+  color: $black-main;
+  width: 65%;
+  height: 100%;
+  margin: $margin-base * 0.5;
+  transition: all 0.3s ease;
+  background-color: $black-secondary;
+
+  header,
+  footer {
+    display: flex;
+    h1 {
+      font-family: $font-family-primary;
+      font-size: $font-size-title;
+      font-weight: 800;
+      padding-bottom: $padding-base;
+      text-align: start;
+    }
+
+    p {
+      text-align: start;
+      font-family: $font-family-secondary;
+      font-size: $font-size-base;
+      color: $gray-main;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.complete {
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  border-radius: $border-radius-base;
+  header,
+  footer {
+    pointer-events: none;
+  }
+  header {
+    height: 100%;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border-radius: $border-radius-base $border-radius-base 0 0;
+  }
+
+  footer {
+    padding: 0 $padding-base;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+.minimalist {
+  padding: $padding-base;
+  border-radius: $border-radius-base;
+
+  header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: $padding-base 0;
+  }
+
+  footer {
+    justify-content: space-between;
+    align-items: center;
+
+    .read-btn {
+      padding: $padding-base * 0.4;
+      background-color: lighten($black-main, 75%);
+      font-weight: $font-weight-base;
+    }
+
+    .like-container {
+      padding: 0 $padding-base;
+      height: 100%;
+
+      i {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: $small-screen) {
+  .blog-card {
+    width: 100%;
+
+    footer {
+      h1 {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: $small-screen) {
+  .blog-card {
+    width: 90%;
+  }
+}

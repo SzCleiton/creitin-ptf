@@ -1,0 +1,43 @@
+// White theme
+$black-main: #292929;
+$black-secondary: #f9fafb;
+$white-main: #ffffff;
+$gray-main: #a1a1a1;
+$green-main: #4ade80;
+$red-main: #ef4444;
+
+// Linear Gradients
+$linear-gradient-primary: linear-gradient(
+  310deg,
+  rgba(247, 0, 204, 1) 6%,
+  rgb(32, 61, 226) 99%
+);
+
+// Font family
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-secondary: 'Open Sans', sans-serif;
+
+// Font size
+$font-size-title: 2rem;
+$font-size-base: 1.6rem;
+$font-size-small: 1.4rem;
+
+// Font weight
+$font-weight-strong: 700;
+$font-weight-title: 500;
+$font-weight-base: 400;
+$font-weight-small: 300;
+
+// Paddings
+$padding-base: 2.2rem;
+
+// Margin
+$margin-base: 2rem;
+
+// Border radius
+$border-radius-base: 1rem;
+
+// Media screens
+$small-screen: 802px;
+$medium-screen: 992px;
+$large-screen: 1286px;

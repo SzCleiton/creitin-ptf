@@ -1,0 +1,43 @@
+.main-button {
+  font-family: $font-family-primary;
+  font-size: $font-size-base;
+  font-weight: $font-weight-title;
+  border-radius: $border-radius-base;
+  border: none;
+  transition: all 0.4s ease;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+// Black version
+.black-btn {
+  position: relative;
+  background-color: $black-main;
+  color: $white-main;
+  &:before {
+    @include gradient-shadow(0.4);
+  }
+  &:hover {
+    transform: scale(1.1);
+    background-color: lighten($black-main, 75%);
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+// White version
+.white-btn {
+  background-color: $black-secondary;
+  color: $black-main;
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: darken($black-secondary, 10%);
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+}

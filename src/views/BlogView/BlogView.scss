@@ -1,0 +1,22 @@
+.blog-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: $padding-base * 3 0;
+  .blog-list {
+    width: 70%;
+    margin: $margin-base * 3 0;
+    @include work-list;
+  }
+}
+
+// Responsive
+@media (max-width: $small-screen) {
+  .blog-page {
+    width: 100%;
+    .blog-list {
+      width: 100%;
+    }
+  }
+}

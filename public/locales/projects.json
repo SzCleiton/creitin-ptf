@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "name": "Discord B10-bot",
+    "description": "This is a Discord bot project created with JavaScript. The goal of this project is the challenge to integrate openAI api into bot responses when user request.",
+    "descriptionPt": "Esse é um bot do Discord criado com JS, O objetivo do projeto foi integra-lo a api da OpenAi.",
+    "technologies": ["Discord.js", "Node", "Javasctipt", "OpenAI"],
+    "link": "https://github.com/Tranivic/discord-B10-bot",
+    "underConstruction": true,
+    "image": "../locales/images/Ny8ujwo.png"
+  },
+  {
+    "id": 1,
+    "name": "Vue Cripto App",
+    "description": "This Vue app was made for a intern aplication, using a criptocurrency api as a database, you can search for the actual currency price on the website.",
+    "descriptionPt": "Este aplicativo Vue foi feito para uma vaga de estágio, usando uma api de criptomoedas como banco de dados, você pode pesquisar o preço atual da moeda no site.",
+    "technologies": ["Vuejs", "CriptoAPI", "Tailwind", "Axios"],
+    "link": "https://cripto-project.vercel.app/",
+    "underConstruction": true,
+    "image": "../locales/images/HvN8VEM.png"
+  },
+  {
+    "id": 2,
+    "name": "Bumbleboot Landing Page",
+    "description": "This is a project made for test some sass skills. I found this landing page on the Internet and try to copy. I've used JavaScript and sass. The challenge in this project was to create the particles effects in header using @keyframes.",
+    "descriptionPt": "Este é um projeto feito para testar algumas habilidades em Sass. Eu encontrei esta página de destino na Internet e tentei copiar. Usei JavaScript e Sass. O desafio neste projeto foi criar os efeitos de partículas no cabeçalho usando @keyframes.",
+    "technologies": ["Html", "Css", "Js", "Sass"],
+    "link": "https://bumblebot.netlify.app/",
+    "underConstruction": false,
+    "image": "../locales/images/8kuoP9l.png"
+  },
+  {
+    "id": 3,
+    "name": "Vue Auth Form",
+    "description": "This Vue application is a dummy authentication app that uses Vuex, Vue Store, and Firebase. The purpose of this app is to help developers improve their Vue authentication skills",
+    "descriptionPt": "Este aplicativo Vue é um aplicativo de autenticação fictício que usa Vuex, Vue Store e Firebase. O objetivo deste aplicativo é ajudar os desenvolvedores a melhorar suas habilidades de autenticação do Vue.",
+    "technologies": ["Vuejs", "Firebase", "Axios"],
+    "link": "https://auth-app-vue.netlify.app/",
+    "underConstruction": false,
+    "image": "../locales/images/MSv4CvK.png"
+  },
+  {
+    "id": 4,
+    "name": "AWS Selfie Inverter",
+    "description": "Project created to facilitate an activity at work, the app automatically inverts the selfies of the document sent by the customer.",
+    "descriptionPt": "Projeto criado para facilitar uma atividade no trabalho, o aplicativo inverte automaticamente as selfies do documento enviado pelo cliente.",
+    "technologies": ["Html", "Css", "Js"],
+    "link": "https://document-selfie-inverter.netlify.app/",
+    "underConstruction": false,
+    "image": "../locales/images/WV7PSdQ.png"
+  },
+  {
+    "id": 5,
+    "name": "Fake Store Landing Page",
+    "description": "Project created to train Bootstrap and semantic html.",
+    "descriptionPt": "Projeto criado para treinar Bootstrap e HTML semântico.",
+    "technologies": ["Jquery", "Bootstrap", "Js"],
+    "link": "https://tranivic.github.io/fakestore-website/",
+    "underConstruction": false,
+    "image": "../locales/images/zZEZ0Un.png"
+  },
+  {
+    "id": 6,
+    "name": "Entregue-me Front end",
+    "description": "Front-end of Ecommerce under construction, i'm creating the frontend of a food delivery, the project is not finished yet, this project is to be released this year. The backend is under construction by a friend.",
+    "descriptionPt": "Front-end de um E-commerce em construção, estou criando o frontend de um serviço de entrega de comida, o projeto ainda não está concluído, será lançado este ano. O backend está em construção por um amigo.",
+    "technologies": ["Vue", "Router", "Vuex", "Sass", "Axios"],
+    "link": "https://github.com/Tranivic/entregue.me-frontend",
+    "underConstruction": true,
+    "image": "../locales/images/h8EVXph.png"
+  },
+  {
+    "id": 7,
+    "name": "Todo List",
+    "description": "This is a simple to do list made with javascript, i tried to not use any tutorial like 'how build a to do list', only following my logic and searching for how things work in javascript. I've learned a lot about DOM manipulation, sass and more.",
+    "descriptionPt": "Esta é uma lista de tarefas simples feita com javascript, eu tentei não usar nenhum tutorial como 'como construir uma lista de tarefas', apenas seguindo minha lógica e pesquisando como as coisas funcionam em javascript. Eu aprendi muito sobre manipulação de DOM, Sass e mais.",
+    "technologies": ["Html", "Sass", "Css", "Js"],
+    "link": "https://tranivic.github.io/to-do-list/",
+    "underConstruction": false,
+    "image": "../locales/images/Wb0OXlR.png"
+  }
+]

@@ -1,0 +1,56 @@
+.status-bar {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-base;
+  background-color: $black-secondary;
+  font-size: $font-size-small;
+  color: $black-main;
+  border-radius: 10rem;
+  max-width: 60rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 36.6rem;
+  height: 2rem;
+  padding: $padding-base * 0.4;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+    border: 1px solid $gray-main;
+  }
+  .status-message {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    animation: marquee-animation 5s linear infinite;
+    span {
+      margin-right: 16rem;
+    }
+  }
+  .status-icon {
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: $green-main;
+  }
+}
+
+@keyframes marquee-animation {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+// Responsive
+@media (max-width: $small-screen) {
+  .status-bar {
+    display: none;
+  }
+}

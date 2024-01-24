@@ -1,0 +1,78 @@
+.contact-form,
+.response-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: $font-family-secondary;
+  text-align: center;
+  height: 40rem;
+}
+.contact-form {
+  width: 30%;
+  input,
+  textarea {
+    font-family: $font-family-secondary;
+    resize: vertical;
+    font-size: $font-size-base;
+    color: $black-main;
+    border-radius: $border-radius-base;
+    font-weight: $font-weight-title;
+    background-color: darken($black-secondary, 2%);
+    padding: $padding-base;
+    margin: $margin-base * 0.5;
+    border: none;
+    width: 100%;
+    cursor: none;
+    &::placeholder {
+      color: $gray-main;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .error {
+    border: $red-main 0.2rem solid;
+  }
+  button {
+    margin-top: $padding-base;
+    padding: 1rem;
+    width: 30%;
+  }
+  label {
+    color: $red-main;
+    align-self: start;
+    font-size: $font-size-small;
+  }
+}
+
+.response-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  font-size: $font-size-title * 1.2;
+}
+.fade-leave-active {
+  position: absolute;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@media (max-width: $small-screen) {
+  .contact-form {
+    width: 90%;
+  }
+}
+
+@media (max-width: $medium-screen) {
+  .contact-form {
+    width: 80%;
+  }
+}

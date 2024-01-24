@@ -1,0 +1,22 @@
+.work-page {
+  padding: $padding-base * 3 0;
+  .work-list {
+    padding: $padding-base * 3 0;
+    margin: $margin-base * 3 0;
+    background-color: darken($white-main, 5%);
+    @include work-list;
+  }
+}
+
+
+// Responsive
+@media (max-width: $small-screen) {
+  .work-page {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    .work-list {
+      margin-top: 1rem;
+    }
+  }
+}

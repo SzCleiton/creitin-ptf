@@ -1,0 +1,40 @@
+{
+    "statusBarMessage": "DISPONÍVEL PARA TRABALHO FREELANCE!",
+    "navMenu": {
+        "titleOpen": "Menu",
+        "titleClose": "Fechar",
+        "homeButton": "Inicio",
+        "aboutButton": "Sobre",
+        "contactButton": "Contato",
+        "workButton": "Projetos"
+    },
+    "downloadMenu": {
+        "initialState": "Baixar CV",
+        "middleState": "Baixando",
+        "finalState": "Abrir 📁"
+    },
+    "toolkitLanguageSelect": "English Translation",
+    "titleFirstLine": "Olá, meu nome é Cleiton Souza",
+    "titleSecondLine": "Eu projeto, escrevo e desenvolvo aplicações web backend.",
+    "description": "Sou um engenheiro de software focado em desenvolvimento back-end.",
+    "hireMeButton": "Me Contrate",
+    "selectedWork": "Projetos Principais",
+    "selectedWorkButton": "Veja Mais",
+    "thingsIDoTitle": "Sobre mim",
+    "thingsIDoDescription": "Codificação, estratégia e desenvolvimento são minhas especialidades, tenho trabalhado nisso há quase 8 anos aprimorando minhas habilidades. Em todos os meus projetos, percebo que fluxos de trabalho eficientes, boa comunicação e uma dose de autodisciplina são fundamentais.",
+    "skillsTitle": "Habilidades",
+    "readMoreButton": "Ler mais",
+    "readingTime": "min de leitura",
+    "letsTalkTitle": "Vamos falar sobre seu projeto!",
+    "letsTalkDescription": "Algo interessante em sua mente? Marque uma call e vamos conversar!",
+    "letsTalkCallButton": "Agende uma chamada",
+    "letsTalkEmailButton": "Me envie um e-mail",
+    "aboutTitle": "Saudações, um pouco sobre mim.",
+    "aboutDescription": "Meu nome é Cleiton Souza, sou um engenheiro de software focado em desenvolvimento back-end que está ansioso para trabalhar remotamente ao redor do mundo ou presencialmente no Minas Gerais. Sou profundamente apaixonado por desenvolver aplicações web backend que tragam valor e maior acessibiliadade e fluidez  para a vida das pessoas.",
+    "contactTitle": "Contato",
+    "contactNamePlaceholder": "Nome",
+    "contactEmailPlaceholder": "E-mail",
+    "contactMessagePlaceholder": "O que tem em mente?",
+    "myWorksTitle": "Meus Projetos",
+    "contactButton": "Enviar"
+}

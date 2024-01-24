@@ -1,0 +1,13 @@
+.ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: $black-main;
+  border: 1px solid $white-main;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 1000;
+}

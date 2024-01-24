@@ -1,0 +1,41 @@
+{
+    "statusBarMessage": "AVAILABLE FOR FREELANCE WORK!",
+    "navMenu": {
+        "titleOpen": "Menu",
+        "titleClose": "Close",
+        "homeButton": "Home",
+        "aboutButton": "About",
+        "contactButton": "Contact",
+        "workButton": "Projects"
+    },
+    "downloadMenu": {
+        "initialState": "Download CV",
+        "middleState": "Downloading",
+        "finalState": "Open 📁"
+    },
+    "toolkitLanguageSelect": "Tradução Português",
+    "titleFirstLine": "Hi, I’m Cleiton Souza.",
+    "titleSecondLine": "I design, write and develop backend web applications.",
+    "description": "I'm a software engineer focused on back-end development.",
+    "hireMeButton": "Hire me",
+    "selectedWork": "Selected Projects",
+    "selectedWorkButton": "See More",
+    "thingsIDoTitle": "Things i do",
+    "thingsIDoDescription": "Coding, strategy and development are my specialties, I have been working on this for almost 8 years improving my skills. In all my projects, I find that efficient workflows, good communication and a dose of self-discipline are key.",
+    "skillsTitle": "Skills",
+    "blogTitle": "Featured Blog",
+    "readMoreButton": "Read more",
+    "readingTime": "min reading",
+    "letsTalkTitle": "Let's Talk About Your Project!",
+    "letsTalkDescription": "Something interesting on your mind? Schedule a call and let's chat!",
+    "letsTalkCallButton": "Schedule a Call",
+    "letsTalkEmailButton": "Send me an Email",
+    "aboutTitle": "Hi, hello and welcome stranger!",
+    "aboutDescription": "My name is Cleiton Souza, I'm a software engineer focused on back-end development who is looking forward to working remotely around the world or in person in Minas Gerais. I am deeply passionate about developing backend web applications that bring value and greater accessibility and fluidity to people's lives.",
+    "contactTitle": "Contact",
+    "contactNamePlaceholder": "Name",
+    "contactEmailPlaceholder": "E-mail",
+    "contactMessagePlaceholder": "What's on your mind?",
+    "myWorksTitle": "My Works",
+    "contactButton": "Send"
+}

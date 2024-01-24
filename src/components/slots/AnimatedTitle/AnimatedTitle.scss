@@ -1,0 +1,50 @@
+.animated-title-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  .animated-item {
+    display: inline-block;
+    margin: 0 0.75rem;
+    transition: all 0.3s ease;
+    font-size: $font-size-title * 3;
+    font-family: $font-family-primary;
+    font-weight: 600;
+    color: $black-main;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.show {
+  animation: animated-title 0.6s ease;
+}
+
+// Title animation
+@keyframes animated-title {
+  0% {
+    opacity: 0;
+    transform: translate(10px, 10px);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate(-11px, -11px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+// Responsive
+@media (max-width: $small-screen) {
+  .animated-title-container {
+    .animated-item {
+      font-size: $font-size-title * 2.5;
+    }
+  }
+}
