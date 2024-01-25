@@ -4,13 +4,6 @@
     <p class="sub-title">{{ globalObject.description }}</p>
     <social-media></social-media>
     <main-button ref="calButton" data-cal-link="SzCleiton24/15min" class="hire-btn" color="black">{{ globalObject.hireMeButton }}</main-button>
-    <div class="selected-work container">
-        <h1>{{ globalObject.selectedWork }}</h1>
-        <ul class="work-list">
-            <work-card v-for="work in selectedWorks" :key="work.name" :work="work" :isShort="false"></work-card>
-        </ul>
-    </div>
-    <main-button :isLink="true" to="/work" color="black" class="see-more-btn">{{ globalObject.selectedWorkButton }}</main-button>
     <div class="things-i-do container">
         <div class="about">
             <h1>{{ globalObject.thingsIDoTitle }}</h1>
@@ -26,7 +19,6 @@
             </div>
         </div>
     </div>
-    <main-button :isLink="true" to="/blog" color="black" class="see-more-btn">{{ globalObject.selectedWorkButton }}</main-button>
     <lets-talk></lets-talk>
 </section>
 </template>
@@ -42,7 +34,7 @@ export default {
         downloadCv() {
             if (!this.btnIsLoading && this.downloadCvTimes === 0) {
                 const downloadCvUrl =
-                    'https://drive.google.com/u/0/uc?id=1k72zHZ2uO-D6K2mgxNM5cVc1_jJHwqE3&export=download';
+                    'https://drive.google.com/file/d/10oMRL1_fl6y23kUGrnGmHjITPZ5WDcjA/view?usp=download';
                 this.btnIsLoading = true;
                 this.$store.commit('increeseDownloadTimes');
                 setTimeout(() => {
@@ -52,7 +44,7 @@ export default {
             }
             if (!this.btnIsLoading && this.downloadCvTimes > 0) {
                 const viewCvUrl =
-                    'https://drive.google.com/file/d/1k72zHZ2uO-D6K2mgxNM5cVc1_jJHwqE3/view?usp=share_link';
+                    'https://drive.google.com/file/d/10oMRL1_fl6y23kUGrnGmHjITPZ5WDcjA/view?usp=sharing';
                 this.$store.commit('increeseDownloadTimes');
                 window.open(viewCvUrl, '_blank');
             }
