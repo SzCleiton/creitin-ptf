@@ -16,4 +16,5 @@ jobs:
         host: ftp.cleitonptf.com.br 
         user: cleitonptf2
         password: Cleneo15790...@
+        localDir: "dist"
             
