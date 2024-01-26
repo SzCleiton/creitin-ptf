@@ -1,4 +1,4 @@
-# cleiton-portfolio-v2-2024
+# cleiton-portfolio
 
 ## Project setup
 ```
