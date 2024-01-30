@@ -34,7 +34,7 @@ export default {
         downloadCv() {
             if (!this.btnIsLoading && this.downloadCvTimes === 0) {
                 const downloadCvUrl =
-                    'https://drive.google.com/file/d/10oMRL1_fl6y23kUGrnGmHjITPZ5WDcjA/view?usp=download';
+                    'https://drive.google.com/file/d/1ZR-GUXmUs8njHlhT7lddvBTEMEFc8z2_/view?usp=download';
                 this.btnIsLoading = true;
                 this.$store.commit('increeseDownloadTimes');
                 setTimeout(() => {
@@ -44,7 +44,7 @@ export default {
             }
             if (!this.btnIsLoading && this.downloadCvTimes > 0) {
                 const viewCvUrl =
-                    'https://drive.google.com/file/d/10oMRL1_fl6y23kUGrnGmHjITPZ5WDcjA/view?usp=sharing';
+                    'https://drive.google.com/file/d/1ZR-GUXmUs8njHlhT7lddvBTEMEFc8z2_/view?usp=sharing';
                 this.$store.commit('increeseDownloadTimes');
                 window.open(viewCvUrl, '_blank');
             }
