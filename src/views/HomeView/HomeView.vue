@@ -3,7 +3,13 @@
     <animated-title v-if="globalObject.titleFirstLine" :firstLine="globalObject.titleFirstLine" :secondLine="globalObject.titleSecondLine"></animated-title>
     <p class="sub-title">{{ globalObject.description }}</p>
     <social-media></social-media>
-    <main-button ref="calButton" data-cal-link="SzCleiton24/15min" class="hire-btn" color="black">{{ globalObject.hireMeButton }}</main-button>
+    <div class="selected-work container">
+        <h1>{{ globalObject.selectedWork }}</h1>
+        <ul class="work-list">
+            <work-card v-for="work in selectedWorks" :key="work.name" :work="work" :isShort="false"></work-card>
+        </ul>
+    </div>
+    <main-button :isLink="true" to="/work" color="black" class="see-more-btn">{{ globalObject.selectedWorkButton }}</main-button>
     <div class="things-i-do container">
         <div class="about">
             <h1>{{ globalObject.thingsIDoTitle }}</h1>

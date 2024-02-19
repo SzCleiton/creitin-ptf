@@ -4,10 +4,6 @@
     <div class="info-container">
         <p>{{ globalObject.aboutDescription}}</p>
     </div>
-    <div class="btn-container">
-        <main-button ref="calButton" data-cal-link="SzCleiton24/15min" color="black">{{ globalObject.letsTalkCallButton }}</main-button>
-        <main-button :isLink="true" pushTo="/contact">{{globalObject.letsTalkEmailButton}}</main-button>
-    </div>
 </section>
 </template>
 

@@ -17,9 +17,6 @@
                     <router-link class="interact-cursor" to="/about">{{globalNavMenu.aboutButton}}</router-link>
                 </li>
                 <li @click="toggleMenu" class="nav-menu-content-item">
-                    <router-link class="interact-cursor" to="/contact">{{globalNavMenu.contactButton}}</router-link>
-                </li>
-                <li @click="toggleMenu" class="nav-menu-content-item">
                     <router-link class="interact-cursor" to="/work">{{globalNavMenu.workButton}}</router-link>
                 </li>
                 <li @click="toggleMenu" class="nav-menu-content-item">

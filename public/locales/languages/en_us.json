@@ -5,7 +5,6 @@
         "titleClose": "Close",
         "homeButton": "Home",
         "aboutButton": "About",
-        "contactButton": "Contact",
         "workButton": "Projects"
     },
     "downloadMenu": {
@@ -16,23 +15,16 @@
     "titleFirstLine": "Hi, I’m Cleiton Souza.",
     "titleSecondLine": "I design, write and develop fullstack applications.",
     "description": "I'm a software engineer focused on fullstack development.",
-    "hireMeButton": "Hire me",
+    "selectedWork": "Favorite Projects",
+    "selectedWorkButton": "See More",
     "thingsIDoTitle": "Things i do",
     "thingsIDoDescription": "Coding, strategy and development are my specialties, I have been working on this for almost 8 years improving my skills. In all my projects, I find that efficient workflows, good communication and a dose of self-discipline are key.",
     "skillsTitle": "Skills",
     "blogTitle": "Featured Blog",
     "readMoreButton": "Read more",
     "readingTime": "min reading",
-    "letsTalkTitle": "Let's Talk About Your Project!",
-    "letsTalkDescription": "Something interesting on your mind? Schedule a call and let's chat!",
     "letsTalkCallButton": "Schedule a Call",
-    "letsTalkEmailButton": "Send me an Email",
     "aboutTitle": "Hi, hello and welcome stranger!",
     "aboutDescription": "My name is Cleiton Souza, I'm a software engineer focused on fullstack development who is looking forward to working remotely around the world or in person in Minas Gerais. I am deeply passionate about developing fullstack applications that bring value and greater accessibility and fluidity to people's lives.",
-    "contactTitle": "Contact",
-    "contactNamePlaceholder": "Name",
-    "contactEmailPlaceholder": "E-mail",
-    "contactMessagePlaceholder": "What's on your mind?",
-    "myWorksTitle": "My Works",
-    "contactButton": "Send"
+    "myWorksTitle": "My Works"
 }

@@ -8,9 +8,6 @@
             <button class="interact-cursor" @click="pushToRoute('/about')"> {{ globalObject.navMenu.aboutButton }}</button>
         </li>
         <li class="nav-menu-content-item">
-            <button class="interact-cursor" @click="pushToRoute('/contact')">{{ globalObject.navMenu.contactButton }}</button>
-        </li>
-        <li class="nav-menu-content-item">
             <button class="interact-cursor" @click="pushToRoute('/work')">{{ globalObject.navMenu.workButton }}</button>
         </li>
         <li class="nav-menu-content-item">

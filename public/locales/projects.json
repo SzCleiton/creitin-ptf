@@ -48,5 +48,25 @@
     "link": "https://szcleiton.github.io/BalleCoffee-CsZ/",
     "underConstruction": false,
     "image": "../locales/images/WV7PSdQ.png"
+  },
+  {
+    "id": 5,
+    "name": "Audio Notes",
+    "description": "This application was developed during Rocketseat's NLW Experts using React, TypeScript, Tailwind and the SpeechRecognition API.",
+    "descriptionPt": "Encontre a receita perfeita! Explore dezenas de variações da bebida favorita entre desenvolvedores de todo o mundo!",
+    "technologies": ["TypeScript", "HTML", "JS", "CSS"],
+    "link": "https://nlw-expert-react-one.vercel.app/",
+    "underConstruction": false,
+    "image": "../locales/images/NLW24NTS.png"
+  },
+  {
+    "id": 7,
+    "name": "Memory Game",
+    "description": "Memory game with the objective of finding all pairs in as few attempts as possible. The game can have different themes and difficulty levels, adding variety and challenge for players.",
+    "descriptionPt": "Encontre a receita perfeita! Explore dezenas de variações da bebida favorita entre desenvolvedores de todo o mundo!",
+    "technologies": ["HTML", "JS", "CSS"],
+    "link": "https://memory-game-pi-fawn.vercel.app/",
+    "underConstruction": false,
+    "image": "../locales/images/GDMCJHCS.png"
   }
 ]
