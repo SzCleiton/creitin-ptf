@@ -60,7 +60,7 @@
     "image": "../locales/images/NLW24NTS.png"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Memory Game",
     "description": "Memory game with the objective of finding all pairs in as few attempts as possible. The game can have different themes and difficulty levels, adding variety and challenge for players.",
     "descriptionPt": "Encontre a receita perfeita! Explore dezenas de variações da bebida favorita entre desenvolvedores de todo o mundo!",
@@ -68,5 +68,15 @@
     "link": "https://memory-game-pi-fawn.vercel.app/",
     "underConstruction": false,
     "image": "../locales/images/GDMCJHCS.png"
+  },
+  {
+    "id": 7,
+    "name": "Algorithms in JavaScript",
+    "description": "In this project, I'll cover search and sorting algorithms in JavaScript, motivated by the lack of content for the dev community. Most of the content was aimed at solutions in Python, Java, C, C++, among others.",
+    "descriptionPt": "Encontre a receita perfeita! Explore dezenas de variações da bebida favorita entre desenvolvedores de todo o mundo!",
+    "technologies": ["NodeJS", "JS", "TypeScript", "Algorithms", "ReactJs", "ViteJs"],
+    "link": "https://algorithms-in-js-orcin.vercel.app/",
+    "underConstruction": false,
+    "image": "../locales/images/AGRTHJS.png"
   }
 ]
