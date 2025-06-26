@@ -26,12 +26,6 @@ export default {
                 iconIsBrands: true,
             },
             {
-                name: 'Instagram',
-                link: 'https://www.instagram.com/souz.ac23/',
-                iconName: 'fa-instagram',
-                iconIsBrands: true,
-            },
-            {
                 name: 'Email',
                 link: 'mailto: souzacleiton54@gmail.com',
                 iconName: 'fa-envelope',
@@ -39,7 +33,7 @@ export default {
             },
             {
                 name: 'Whatsapp',
-                link: 'https://wa.me/5519992741041',
+                link: 'https://wa.me/5519998212033',
                 iconName: 'fa-whatsapp',
                 iconIsBrands: true,
             },
