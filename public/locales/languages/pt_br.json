@@ -1,0 +1,27 @@
+{
+    "statusBarMessage": "DISPONÍVEL PARA TRABALHO FREELANCE!",
+    "navMenu": {
+        "titleOpen": "Menu",
+        "titleClose": "Fechar",
+        "homeButton": "Inicio",
+        "aboutButton": "Sobre",
+        "workButton": "Projetos"
+    },
+    "downloadMenu": {
+        "initialState": "Baixar CV",
+        "middleState": "Baixando",
+        "finalState": "Abrir 📁"
+    },
+    "titleFirstLine": "Olá, meu nome é Cleiton Souza",
+    "titleSecondLine": "Eu projeto e desenvolvo aplicações full stack.",
+    "description": "Sou um engenheiro de software focado em desenvolvimento fullstack.",
+    "selectedWork": "Projetos Favoritos",
+    "selectedWorkButton": "Veja mais",
+    "thingsIDoTitle": "Sobre mim",
+    "thingsIDoDescription": "Codificação, estratégia e desenvolvimento são minhas especialidades, tenho trabalhado nisso há quase 8 anos aprimorando minhas habilidades. Em todos os meus projetos, percebo que fluxos de trabalho eficientes, boa comunicação e uma dose de autodisciplina são fundamentais.",
+    "skillsTitle": "Habilidades",
+    "readMoreButton": "Ler mais",
+    "aboutTitle": "Saudações, um pouco sobre mim.",
+    "aboutDescription": "Meu nome é Cleiton Souza, sou engenheiro de software focado em desenvolvimento fullstack e estou ansioso para trabalhar remotamente ao redor do mundo ou presencialmente em Minas Gerais. Sou profundamente apaixonado por desenvolver aplicações fullstack que agreguem valor e maior acessibilidade e fluidez à vida das pessoas.",
+    "myWorksTitle": "Meus Projetos"
+}
