@@ -20,9 +20,6 @@
     <div class="social-media-container">
         <social-media></social-media>
     </div>
-    <div class="emoji-container">
-        <h1 class="interact-cursor">⚡</h1>
-    </div>
 </footer>
 </template>
 
