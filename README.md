@@ -47,6 +47,11 @@ Para executar este projeto em sua máquina local, siga os passos abaixo.
     npm run dev
     ```
 
+5.  **Caso queira, adicionei alguns teste(rode):**
+    ```bash
+    npm test
+    ```
+
 Após executar o último comando, o servidor de desenvolvimento será iniciado. Você poderá acessar o projeto em seu navegador, geralmente no endereço `http://localhost:5173`.
 
 ---
