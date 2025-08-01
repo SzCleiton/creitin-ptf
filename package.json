@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-cli-service build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest"
