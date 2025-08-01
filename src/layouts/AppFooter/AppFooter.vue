@@ -20,8 +20,13 @@
     <div class="social-media-container">
         <social-media></social-media>
     </div>
+    <p>&copy; {{ currentYear }} Cleiton Souza. Todos os direitos reservados.</p>
 </footer>
 </template>
+
+<script setup>
+const currentYear = new Date().getFullYear();
+</script>
 
 <script>
 export default {
