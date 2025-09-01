@@ -10,7 +10,7 @@ import SocialMediaComponent from './components/ui/SocialMedia/SocialMedia.vue';
 import AnimatedTitleComponent from './components/slots/AnimatedTitle/AnimatedTitle.vue';
 import LetsTalkComponent from './components/ui/LetsTalk/LetsTalk.vue';
 import WorkCardComponent from './components/ui/WorkCard/WorkCard.vue';
-//import DownloadButtonComponent from './components/ui/DownloadButton/DownloadButton.vue';
+import DownloadButtonComponent from './components/ui/DownloadButton/DownloadButton.vue';
 import BlogCardComponent from './components/ui/BlogCard/BlogCard.vue';
 
 // Vue app creation
@@ -22,6 +22,6 @@ app.component('social-media', SocialMediaComponent);
 app.component('animated-title', AnimatedTitleComponent);
 app.component('lets-talk', LetsTalkComponent);
 app.component('work-card', WorkCardComponent);
-//app.component('download-button', DownloadButtonComponent);
+app.component('download-button', DownloadButtonComponent);
 app.component('blog-card', BlogCardComponent);
 app.mount('#app');

@@ -12,11 +12,11 @@ const store = createStore({
     calApiModule: calApiModule,
     languageModule: languageModule,
   },
-  // state: {
-  //   cvDownloadTimes: 0,
-  //   works: [],
-  //   posts: [],
-  // },
+  state: {
+    cvDownloadTimes: 0,
+    works: [],
+    posts: [],
+  },
   getters: {
     myWorks(state) {
       return state.works;
