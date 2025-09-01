@@ -18,7 +18,7 @@
         <div class="skills container">
             <h1>{{ globalObject.skillsTitle }}</h1>
             <p>
-                Java • Python • JavaScript • TypeScript • React • Angular • Svelte • Node • Express • Django • SpringBoot • AWS • Docker • among others
+                Java • Python • JavaScript • TypeScript • React • Angular • Svelte • Node • C# • .NEt core • Docker • among others
             </p>
             <div class="btn-container">
                 <download-button @click="downloadCv()" class="">Download CV</download-button>
