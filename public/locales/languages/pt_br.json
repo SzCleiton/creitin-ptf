@@ -7,11 +7,6 @@
         "aboutButton": "Sobre",
         "workButton": "Projetos"
     },
-    "downloadMenu": {
-        "initialState": "Baixar CV",
-        "middleState": "Baixando",
-        "finalState": "Abrir 📁"
-    },
     "titleFirstLine": "Olá, meu nome é Cleiton Souza",
     "titleSecondLine": "Eu projeto e desenvolvo aplicações full stack.",
     "description": "Sou um engenheiro de software focado em desenvolvimento fullstack.",

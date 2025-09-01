@@ -7,11 +7,6 @@
         "aboutButton": "About",
         "workButton": "Projects"
     },
-    "downloadMenu": {
-        "initialState": "Download CV",
-        "middleState": "Downloading",
-        "finalState": "Open 📁"
-    },
     "titleFirstLine": "Hi, I’m Cleiton Souza.",
     "titleSecondLine": "I design and develop fullstack applications.",
     "description": "I'm a software engineer focused on fullstack development.",
