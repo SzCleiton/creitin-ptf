@@ -33,26 +33,6 @@ export default {
             btnIsLoading: false,
         };
     },
-    methods: {
-        downloadCv() {
-            if (!this.btnIsLoading && this.downloadCvTimes === 0) {
-                const downloadCvUrl =
-                    'https://drive.google.com/file/d/1QlozNoTzbP5b-KrJJOiKmeMzrVvIqKDi/view?usp=download';
-                this.btnIsLoading = true;
-                this.$store.commit('increeseDownloadTimes');
-                setTimeout(() => {
-                    window.open(downloadCvUrl, '_blank');
-                    this.btnIsLoading = false;
-                }, 3050);
-            }
-            if (!this.btnIsLoading && this.downloadCvTimes > 0) {
-                const viewCvUrl =
-                    'https://drive.google.com/file/d/1QlozNoTzbP5b-KrJJOiKmeMzrVvIqKDi/view?usp=sharing';
-                this.$store.commit('increeseDownloadTimes');
-                window.open(viewCvUrl, '_blank');
-            }
-        },
-    },
     computed: {
         selectedWorks() {
             return this.$store.getters.selectedWorks;
